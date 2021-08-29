@@ -1,0 +1,26 @@
+[
+	{
+		"address_id": 1,
+		"address_nickname": "Berkeley Office",
+		"country": "USA",
+		"address": "215 Dwight Way, Berkeley, CA 97074",
+		"is_billing_address": true,
+		"is_shipping_address": true
+	},
+	{
+		"address_id": 2,
+		"address_nickname": "New York Headquarters",
+		"country": "USA",
+		"address": "156 Street Way, New York, NY 67809",
+		"is_billing_address": true,
+		"is_shipping_address": false
+	},
+	{
+		"address_id": 3,
+		"address_nickname": "Wisconsin Factory",
+		"country": "USA",
+		"address": "8140 County Rd, Colfax, WI 54730",
+		"is_billing_address": false,
+		"is_shipping_address": true
+	}
+]

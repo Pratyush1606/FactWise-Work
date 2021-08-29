@@ -1,0 +1,12 @@
+{
+    "item_id": "1",
+    "buyer_item_id": "100021",
+    "item_name": "iPhone 12",
+    "measurement_unit": "Units",
+    "description": "No engraving or Apple Care.",
+    "attributes": {
+        "Color": "Black",
+        "Manufacturer": "Apple",
+        "Storage": "256GB"
+    }
+}

@@ -1,0 +1,24 @@
+invoice_id int [pk]
+  purchase_order_id int [not null, ref: > purchase_orders.purchase_order_id]
+  buyer_purchase_order_id varchar(100) [not null]
+  
+  document_url url [Note: "When scanned copy is attached"]
+  created_by_user_id int [not null, ref: > users.user_id]
+  invoice_creation_datetime datetime [not null]
+  seller_id int [not null, ref: > sellers.seller_id]
+  buyer_id int [ref: > buyers.buyer_id, not null]
+  seller_comments text [null]
+  status varchar(100) [Note: "issued, ongoing, termination_requested, terminated, completed"]
+  
+  currency_code varchar(3)
+  amount_invoiced decimal
+  amount_paid decimal
+  
+  closing_user_id_seller int [ref: > users.user_id]
+  closing_comments_seller text
+  closing_datetime_seller datetime
+  closing_user_id_buyer int [ref: > users.user_id]
+  closing_comments_buyer text
+  closing_datetime_buyer datetime
+  
+  invoice_close_datetime datetime [null]

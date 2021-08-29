@@ -1,0 +1,239 @@
+{
+    "event_info": {
+        "event_id": 1, 
+        "enterprise_id": 1, 
+        "event_name": "Buy", 
+        "event_type": "RFQ",
+        "event_start_datetime": "2021-05-17T09:49:43.583737Z",
+        "event_end_datetime": "2021-05-17T09:49:43.583737Z",
+        "buyer_billing_address_id": 1,
+        "buyer_shipping_address_id": 2, 
+        "event_delivery_datetime": "2021-05-17T09:49:43.583737Z", 
+        "payment_terms_code": "USD",
+        "created_by_user_id": 1,
+        "created_by_name": "Pratyush", 
+        "created_by_phone": "xxxxxx991", 
+        "created_by_email": "jaiswalprat@gmail.com", 
+        "status": "Draft", 
+        "last_modified_by_user_id": 1,
+        "quote_type": "EXW",
+        "lead_time":"5 months"
+    },
+    "event_item_list": [
+        {
+            "item_info": {
+                "item_id": 1,
+                "event_line_item_id": 1,
+                "item_name": "iPhone 12",
+                "description": "No Engraving", 
+                "desired_quantity": 100, 
+                "currency_code": "USD", 
+                "desired_price": 950, 
+                "opening_bid": 950, 
+                "total_amount": 100000
+            },
+            "item_attribute": [
+                {
+                    "attribute_name": "Storage",
+                    "attribute_value": "256GB"
+                },
+                {
+                    "attribute_name": "Color",
+                    "attribute_value": "Black"
+                }
+            ]
+        },
+        {
+            "item_info": {
+                "item_id": 2, 
+                "event_line_item_id": 2,
+                "item_name": "Macbook",
+                "desired_quantity": 500, 
+                "currency_code": "USD", 
+                "desired_price": 1000, 
+                "opening_bid": 1000, 
+                "total_amount": 500000
+            },
+            "item_attribute": [
+                {
+                    "attribute_name": "RAM",
+                    "attribute_value": "16GB"
+                },
+                {
+                    "attribute_name": "Color",
+                    "attribute_value": "Black"
+                },
+                {
+                    "attribute_name": "Processor",
+                    "attribute_value": "Intel i5"
+                },
+                {
+                    "attribute_name": "SSD",
+                    "attribute_value": "256GB"
+                }
+            ]
+        }
+    ],
+    "event_bid_submitted_list": [
+        {
+            "bid_info": {
+                "quote_id": "3001",
+                "seller_id": 1,
+                "seller_name": "Apple INC",
+                "seller_email": "jais@apple.com",
+                "quote_type": "EXW",
+                "lead_time": "5 months",
+                "bulk_discount": "5%",
+                "total_amount": "900125",
+                "currency_code": "USD",
+                "internal_notes": "We will do our best to serve you."
+            },
+            "bid_item_list": [
+                {
+                    "item_info": {
+                        "event_line_item_id": 1,
+                        "price": "950",
+                        "currency_code": "USD",
+                        "quantity_offered": 500,
+                        "total_amount": "48500"
+                    },
+                    "item_tax_list":[
+                        {
+                            "tax_name": "TAX 1",
+                            "value": "5%"
+                        },
+                        {
+                            "tax_name": "Shipping",
+                            "value": "0%"
+                        }
+                    ]
+                },
+                {
+                    "item_info": {
+                        "event_line_item_id": 2,
+                        "price": "925",
+                        "currency_code": "USD",
+                        "quantity_offered": 500,
+                        "total_amount": "462500"
+                    },
+                    "item_tax_list":[
+                        {
+                            "tax_name": "TAX 1",
+                            "value": "5%"
+                        },
+                        {
+                            "tax_name": "Shipping",
+                            "value": "0%"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "bid_info": {
+                "quote_id": "3002",
+                "seller_id": 2,
+                "seller_name": "Unicorn Resale",
+                "seller_email": "jais@apple1.com",
+                "quote_type": "EXW",
+                "lead_time": "6 months",
+                "total_amount": "972000",
+                "currency_code": "USD",
+                "internal_notes": ""
+            },
+            "bid_item_list": [
+                {
+                    "item_info": {
+                        "event_line_item_id": 1,
+                        "price": "979",
+                        "currency_code": "USD",
+                        "quantity_offered": 500,
+                        "total_amount": "489500"
+                    },
+                    "item_tax_list":[
+                        {
+                            "tax_name": "TAX 1",
+                            "value": "5%"
+                        },
+                        {
+                            "tax_name": "Shipping",
+                            "value": "0%"
+                        }
+                    ]
+                },
+                {
+                    "item_info": {
+                        "event_line_item_id": 2,
+                        "price": "965",
+                        "currency_code": "USD",
+                        "quantity_offered": 500,
+                        "total_amount": "482500"
+                    },
+                    "item_tax_list":[
+                        {
+                            "tax_name": "TAX 1",
+                            "value": "5%"
+                        },
+                        {
+                            "tax_name": "Shipping",
+                            "value": "0%"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "bid_info": {
+                "quote_id": "3003",
+                "seller_id": 3,
+                "seller_name": "Stermone",
+                "seller_email": "jais@apple2.com",
+                "quote_type": "EXW",
+                "lead_time": "5 months",
+                "total_amount": "942500",
+                "currency_code": "USD",
+                "internal_notes": "We are here to serve you."
+            },
+            "bid_item_list": [
+                {
+                    "item_info": {
+                        "event_line_item_id": 1,
+                        "price": "985",
+                        "currency_code": "USD",
+                        "quantity_offered": 500,
+                        "total_amount": "492500"
+                    },
+                    "item_tax_list":[
+                        {
+                            "tax_name": "TAX 1",
+                            "value": "5%"
+                        },
+                        {
+                            "tax_name": "Shipping",
+                            "value": "0%"
+                        }
+                    ]
+                },
+                {
+                    "item_info": {
+                        "event_line_item_id": 2,
+                        "price": "900",
+                        "currency_code": "USD",
+                        "quantity_offered": 500,
+                        "total_amount": "450000"
+                    },
+                    "item_tax_list":[
+                        {
+                            "tax_name": "TAX 1",
+                            "value": "5%"
+                        },
+                        {
+                            "tax_name": "Shipping",
+                            "value": "0%"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

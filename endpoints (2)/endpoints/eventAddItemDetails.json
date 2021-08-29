@@ -1,0 +1,11 @@
+{
+  "item_id": 1534,
+  "buyer_item_code": "10021",
+  "buyer_item_name": "iPhone 12",
+  "item_attribute_values":  {
+    "Manufacturor": "Apple",
+    "Storage": "256 GB",
+    "Color": "Black"
+  },
+  "measurement_units": ["units", "dozens"]
+}

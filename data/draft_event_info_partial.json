@@ -1,0 +1,18 @@
+{
+    "event_id": "1",
+    "event_name": "IT Solutions",
+    "event_type": "RFQ",
+    "event_end_date": "2021-08-11",
+    "event_end_time": "16:30 pm IST",
+    "created_by_name": "Matt",
+    "event_billing_address_id": "1",
+    "event_billing_address_nickname": "Berkeley Office",
+    "event_billing_address": "215 Dwight Way, Berkeley, CA 97074",
+    "event_billing_address_country": "USA",
+    "event_delivery_address_id": "3",
+    "event_delivery_address_nickname": "Wisconsin Factory",
+    "event_delivery_address": "8140 County Rd, Colfax, WI 54730",
+    "event_delivery_address_country": "USA",
+    "event_delivery_date": "2021-08-11",
+    "payment_terms": "90 Days"
+}

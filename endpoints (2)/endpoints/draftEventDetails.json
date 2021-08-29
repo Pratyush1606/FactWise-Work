@@ -1,0 +1,35 @@
+{
+    "event_id": 1,
+    "event_name": "Petrochemicals",
+    "event_type": "RFQ",
+    "event_start_datetime": "2021-08-11",
+    "event_end_datetime": "2021-08-18",
+    "created_by_name": "Matt",
+    "status": "draft",
+    "event_items": [
+        {
+            "item_id": "1",
+            "item_name": "iPhone 12",
+            "desired_quantity": "500",
+            "measurement_unit": "units",
+            "attributes": {
+                "color": "Black",
+                "manufacturor": "Apple"
+            },
+            "desired_price": "995",
+            "currency_code": "USD",
+            "delivery_date": "2021-07-11",
+            "invited_sellers": [{
+                "seller_id": "123",
+                "seller_name": "Apple Inc.",
+                "url": "xyz.com"
+            },
+            {
+                "seller_id": "123",
+                "seller_name": "Apple Inc."
+            }
+            ]
+        }
+    ],
+    "payment_terms": "90 days"
+}

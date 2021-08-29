@@ -1,0 +1,98 @@
+{
+    "event_id": 1,
+    "event_name": "IT Solutions",
+    "event_type": "RFQ",
+    "event_end_date": "2021-08-11",
+    "event_end_time": "16:30 pm IST",
+    "created_by_name": "Matt",
+    "event_billing_address_id": "1",
+    "event_billing_address_nickname": "Berkeley Office",
+    "event_billing_address": "215 Dwight Way, Berkeley, CA 97074",
+    "event_billing_address_country": "USA",
+    "event_delivery_address_id": "3",
+    "event_delivery_address_nickname": "Wisconsin Factory",
+    "event_delivery_address": "8140 County Rd, Colfax, WI 54730",
+    "event_delivery_address_country": "USA",
+    "event_delivery_date": "2021-08-11",
+    "payment_terms": "90 Days",
+    "status": "draft",
+    "event_items": [{
+            "item_id": "1",
+            "buyer_item_id": "100021",
+            "item_name": "iPhone 12",
+            "desired_quantity": "500",
+            "measurement_unit": "Units",
+            "description": "No engraving or Apple Care.",
+            "attributes": {
+                "Color": "Black",
+                "Manufacturer": "Apple",
+                "Storage": "256GB"
+            },
+            "desired_price": "995",
+            "currency_code": "USD",
+            "delivery_date": "2021-08-11",
+            "invited_sellers": [{
+                "seller_id": "1",
+                "seller_name": "Apple",
+                "url": "xyz.com"
+            },
+            {
+                "seller_id": "2",
+                "seller_name": "Unicorn Reseller"
+            },
+            {
+                "seller_id": "3",
+                "seller_name": "Stermone"
+            }],
+            "number_of_sellers": 3,
+            "attachments": [{
+                "attachment_id": "1",
+                "attachment_name": "iPhone.png",
+                "attachment_url": "iphone.png"
+            },
+            {
+                "attachment_id": "2",
+                "attachment_name": "specifications.pdf",
+                "attachment_url": "specifications.pdf"   
+            }],
+            "allow_substitutes": "true",
+            "insurance_required": "false",
+            "post_to_global_market_place": "true"
+        },
+        {
+            "item_id": "2",
+            "buyer_item_id": "100023",
+            "item_name": "Macbook",
+            "desired_quantity": "500",
+            "measurement_unit": "Units",
+            "description": "No engraving or Apple Care.",
+            "attributes": {
+                "RAM": "16GB",
+                "Color": "Black",
+                "Processor": "Intel i5",
+                "Manufacturer": "Apple",
+                "SSD": "256GB"
+            },
+            "desired_price": "1000",
+            "currency_code": "USD",
+            "delivery_date": "2021-08-11",
+            "invited_sellers": [{
+                "seller_id": "1",
+                "seller_name": "Apple",
+                "url": "xyz.com"
+            },
+            {
+                "seller_id": "2",
+                "seller_name": "Unicorn Reseller"
+            }],
+            "number_of_sellers": 2,
+            "attachments": [{
+                "attachment_id": "3",
+                "attachment_name": "specification.pdf",
+                "attachment_url": "specification.pdf" 
+            }],
+            "allow_substitutes": "true",
+            "insurance_required": "false",
+            "post_to_global_market_place": "true"
+        }]
+}

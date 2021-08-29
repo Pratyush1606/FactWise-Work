@@ -1,0 +1,12 @@
+{
+    "event_id": "",
+    "event_name": "RFQ Event",
+    "event_type": "RFQ",
+    "event_start_datetime": "2021-05-01",
+    "event_end_datetime": "2021-05-11",
+    "created_by_name": "Matt",
+    "status": "draft",
+    "event_items": [
+    ]
+}
+            

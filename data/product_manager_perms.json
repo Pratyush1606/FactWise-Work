@@ -1,0 +1,11 @@
+{
+    "events": false,
+    "purchase_orders": false,
+    "vendors": false,
+    "messaging": true,
+    "analytics": false,
+    "goods_receipt": true,
+    "payments": false,
+    "invoices": false,
+    "marketplace": false
+}

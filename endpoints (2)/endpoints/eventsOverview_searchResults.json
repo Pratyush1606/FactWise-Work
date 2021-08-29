@@ -1,0 +1,26 @@
+[
+ {
+   "event_id": 450676,
+   "event_name": "IT Solutions",
+   "event_type": "RFQ",
+   "event_start_date": "2021-03-30",
+   "event_end_date": "2021-04-06",
+   "event_items_count": 2,
+   "event_sellers_per_item": 3,
+   "event_created_by_name": "Matt",
+   "event_status": "Award Pending",
+   "event_tab_filter": "Ongoing"
+ },
+ {
+   "event_id": 837398,
+   "event_name": "IT Solutions",
+   "event_type": "RFQ",
+   "event_start_date": "",
+   "event_end_date": "",
+   "event_items_count": 2,
+   "event_sellers_per_item": 3,
+   "event_created_by_name": "Matt",
+   "event_status": "Draft",
+   "event_tab_filter": "Drafts"
+ }
+]

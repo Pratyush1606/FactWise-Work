@@ -1,0 +1,38 @@
+{
+  "purchase_order_id": 1,
+  "buyer_purchase_order_id": "P345678",
+  "invoice_id": 1,
+  "seller_invoice_id": "EL329038",
+  "invoice_items":  [
+    {
+      "item_id": 1,
+      "buyer_item_id": "F100021",
+      "item_name": "iPhone 12",
+      "measurement_unit": "units",
+      "pending_quantity": 500,
+      "currency_code": "USD",
+      "price": 950,
+      "attributes": {
+          "Manufacturor": "Apple",
+          "Storage": "256 GB",
+          "Color": "Black"
+      }
+    },
+    {
+      "item_id": 2,
+      "buyer_item_id": "F100023",
+      "item_name": "Macbook Pro",
+      "measurement_unit": "units",
+      "pending_quantity": 200,
+      "currency_code": "USD",
+      "price": 2250,
+      "attributes": {
+          "Manufacturor": "Apple",
+          "RAM": "16 GB",
+          "Color": "Black",
+          "Processor": "Intel i5",
+          "SSD": "256 GB"
+      }
+    }
+  ]
+}

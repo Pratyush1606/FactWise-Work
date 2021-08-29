@@ -1,0 +1,24 @@
+[
+  {
+    "event_id": "342678",
+    "event_name":"IT solutions",
+    "event_type":"RFQ",
+    "event_start_date":null,
+    "event_end_date":"2021-12-31",
+    "event_items_count":4,
+    "event_sellers_per_item":2.5,
+    "event_created_by_name":"Matt",
+    "event_status":"Draft"
+  },
+  {
+    "event_id": "342693",
+    "event_name":"Petrochemicals",
+    "event_type":"Auction",
+    "event_start_date":"2022-01-04",
+    "event_end_date":"2022-01-04",
+    "event_items_count":8,
+    "event_sellers_per_item":3.1,
+    "event_created_by_name":"Matt",
+    "event_status":"Approval Pending"
+  }
+]

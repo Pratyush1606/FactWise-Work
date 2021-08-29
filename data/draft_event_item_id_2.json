@@ -1,0 +1,14 @@
+{
+    "item_id": "2",
+    "buyer_item_id": "100023",
+    "item_name": "Macbook",
+    "measurement_unit": "Units",
+    "description": "No engraving or Apple Care.",
+    "attributes": {
+        "RAM": "16GB",
+        "Color": "Black",
+        "Processor": "Intel i5",
+        "Manufacturer": "Apple",
+        "SSD": "256GB"
+    }
+}
